@@ -1,0 +1,1119 @@
+{
+  "version": "2025",
+  "totalQuestions": 128,
+  "questions": [
+    {
+      "id": 1,
+      "topic": "Principles of American Government",
+      "starred": false,
+      "type": "open",
+      "question": "What is the form of government of the United States?",
+      "correctAnswers": ["republic", "constitutional republic", "constitution-based federal republic", "representative democracy", "federal republic"]
+    },
+    {
+      "id": 2,
+      "topic": "Principles of American Government",
+      "starred": true,
+      "type": "mcq-single",
+      "question": "What is the supreme law of the land?",
+      "options": ["The U.S. Constitution", "The Declaration of Independence", "The Bill of Rights", "The Articles of Confederation"],
+      "correctAnswer": "The U.S. Constitution"
+    },
+    {
+      "id": 3,
+      "topic": "Principles of American Government",
+      "starred": false,
+      "type": "open",
+      "question": "Name one thing the U.S. Constitution does.",
+      "correctAnswers": ["forms the government", "defines powers of government", "defines the parts of government", "protects the rights of the people", "establishes the government"]
+    },
+    {
+      "id": 4,
+      "topic": "Principles of American Government",
+      "starred": false,
+      "type": "open",
+      "question": "The U.S. Constitution starts with the words \"We the People.\" What does \"We the People\" mean?",
+      "correctAnswers": ["self-government", "popular sovereignty", "consent of the governed", "people should govern themselves", "social contract"]
+    },
+    {
+      "id": 5,
+      "topic": "Principles of American Government",
+      "starred": false,
+      "type": "mcq-single",
+      "question": "How are changes made to the U.S. Constitution?",
+      "options": ["Through amendments", "By presidential decree", "By Supreme Court ruling", "By a national vote of all citizens"],
+      "correctAnswer": "Through amendments"
+    },
+    {
+      "id": 6,
+      "topic": "Principles of American Government",
+      "starred": false,
+      "type": "mcq-single",
+      "question": "What does the Bill of Rights protect?",
+      "options": ["The basic rights of Americans", "The powers of the federal government", "The duties of the President", "The rules for federal elections"],
+      "correctAnswer": "The basic rights of Americans"
+    },
+    {
+      "id": 7,
+      "topic": "Principles of American Government",
+      "starred": true,
+      "type": "mcq-single",
+      "question": "How many amendments does the U.S. Constitution have?",
+      "options": ["27", "10", "25", "30"],
+      "correctAnswer": "27"
+    },
+    {
+      "id": 8,
+      "topic": "Principles of American Government",
+      "starred": false,
+      "type": "open",
+      "question": "Why is the Declaration of Independence important?",
+      "correctAnswers": ["it says america is free from british control", "america is free from british control", "says all people are created equal", "all people are created equal", "identifies inherent rights", "identifies individual freedoms"]
+    },
+    {
+      "id": 9,
+      "topic": "Principles of American Government",
+      "starred": false,
+      "type": "mcq-single",
+      "question": "What founding document said the American colonies were free from Britain?",
+      "options": ["Declaration of Independence", "U.S. Constitution", "The Federalist Papers", "Articles of Confederation"],
+      "correctAnswer": "Declaration of Independence"
+    },
+    {
+      "id": 10,
+      "topic": "Principles of American Government",
+      "starred": false,
+      "type": "mcq-multi",
+      "question": "Name two important ideas from the Declaration of Independence and the U.S. Constitution.",
+      "options": ["Equality", "Liberty", "Social contract", "Natural rights", "Limited government", "Self-government", "Absolute monarchy", "Divine right of kings"],
+      "correctAnswers": ["Equality", "Liberty", "Social contract", "Natural rights", "Limited government", "Self-government"],
+      "requiredCount": 2
+    },
+    {
+      "id": 11,
+      "topic": "Principles of American Government",
+      "starred": false,
+      "type": "mcq-single",
+      "question": "The words \"Life, Liberty, and the pursuit of Happiness\" are in what founding document?",
+      "options": ["Declaration of Independence", "U.S. Constitution", "The Bill of Rights", "Articles of Confederation"],
+      "correctAnswer": "Declaration of Independence"
+    },
+    {
+      "id": 12,
+      "topic": "Principles of American Government",
+      "starred": true,
+      "type": "mcq-single",
+      "question": "What is the economic system of the United States?",
+      "options": ["Capitalism / free market economy", "Socialism", "Communism", "Command economy"],
+      "correctAnswer": "Capitalism / free market economy"
+    },
+    {
+      "id": 13,
+      "topic": "Principles of American Government",
+      "starred": false,
+      "type": "open",
+      "question": "What is the rule of law?",
+      "correctAnswers": ["everyone must follow the law", "leaders must obey the law", "government must obey the law", "no one is above the law"]
+    },
+    {
+      "id": 14,
+      "topic": "Principles of American Government",
+      "starred": false,
+      "type": "open",
+      "question": "Many documents influenced the U.S. Constitution. Name one.",
+      "correctAnswers": ["declaration of independence", "articles of confederation", "federalist papers", "anti-federalist papers", "virginia declaration of rights", "fundamental orders of connecticut", "mayflower compact", "iroquois great law of peace"]
+    },
+    {
+      "id": 15,
+      "topic": "Principles of American Government",
+      "starred": false,
+      "type": "open",
+      "question": "There are three branches of government. Why?",
+      "correctAnswers": ["so one part does not become too powerful", "checks and balances", "separation of powers", "to prevent one part from becoming too powerful"]
+    },
+    {
+      "id": 16,
+      "topic": "System of Government",
+      "starred": false,
+      "type": "mcq-multi",
+      "question": "Name the three branches of government.",
+      "options": ["Legislative", "Executive", "Judicial", "Administrative", "Military", "Diplomatic"],
+      "correctAnswers": ["Legislative", "Executive", "Judicial"],
+      "requiredCount": 3
+    },
+    {
+      "id": 17,
+      "topic": "System of Government",
+      "starred": false,
+      "type": "mcq-single",
+      "question": "The President of the United States is in charge of which branch of government?",
+      "options": ["Executive branch", "Legislative branch", "Judicial branch", "Administrative branch"],
+      "correctAnswer": "Executive branch"
+    },
+    {
+      "id": 18,
+      "topic": "System of Government",
+      "starred": false,
+      "type": "mcq-single",
+      "question": "What part of the federal government writes laws?",
+      "options": ["Congress (legislative branch)", "The President (executive branch)", "The Supreme Court (judicial branch)", "The Cabinet"],
+      "correctAnswer": "Congress (legislative branch)"
+    },
+    {
+      "id": 19,
+      "topic": "System of Government",
+      "starred": false,
+      "type": "mcq-single",
+      "question": "What are the two parts of the U.S. Congress?",
+      "options": ["Senate and House of Representatives", "Senate and Supreme Court", "House of Representatives and the Cabinet", "Senate and the Presidency"],
+      "correctAnswer": "Senate and House of Representatives"
+    },
+    {
+      "id": 20,
+      "topic": "System of Government",
+      "starred": true,
+      "type": "open",
+      "question": "Name one power of the U.S. Congress.",
+      "correctAnswers": ["writes laws", "write laws", "declares war", "declare war", "makes the federal budget", "make the federal budget", "approves the budget"]
+    },
+    {
+      "id": 21,
+      "topic": "System of Government",
+      "starred": false,
+      "type": "mcq-single",
+      "question": "How many U.S. senators are there?",
+      "options": ["100", "50", "435", "200"],
+      "correctAnswer": "100"
+    },
+    {
+      "id": 22,
+      "topic": "System of Government",
+      "starred": false,
+      "type": "mcq-single",
+      "question": "How long is a term for a U.S. senator?",
+      "options": ["6 years", "2 years", "4 years", "8 years"],
+      "correctAnswer": "6 years"
+    },
+    {
+      "id": 23,
+      "topic": "System of Government",
+      "starred": false,
+      "type": "open",
+      "question": "Who is one of your state's U.S. senators now?",
+      "correctAnswers": [],
+      "selfAssess": true,
+      "note": "This answer varies by state. Enter the name of one of your current U.S. Senators."
+    },
+    {
+      "id": 24,
+      "topic": "System of Government",
+      "starred": false,
+      "type": "mcq-single",
+      "question": "How many voting members are in the House of Representatives?",
+      "options": ["435", "100", "50", "300"],
+      "correctAnswer": "435"
+    },
+    {
+      "id": 25,
+      "topic": "System of Government",
+      "starred": false,
+      "type": "mcq-single",
+      "question": "How long is a term for a member of the House of Representatives?",
+      "options": ["2 years", "4 years", "6 years", "8 years"],
+      "correctAnswer": "2 years"
+    },
+    {
+      "id": 26,
+      "topic": "System of Government",
+      "starred": false,
+      "type": "mcq-single",
+      "question": "Why do U.S. representatives serve shorter terms than U.S. senators?",
+      "options": ["To more closely follow public opinion", "To limit their power", "To reduce government spending", "To align with presidential elections"],
+      "correctAnswer": "To more closely follow public opinion"
+    },
+    {
+      "id": 27,
+      "topic": "System of Government",
+      "starred": false,
+      "type": "mcq-single",
+      "question": "How many senators does each state have?",
+      "options": ["2", "1", "3", "Depends on state population"],
+      "correctAnswer": "2"
+    },
+    {
+      "id": 28,
+      "topic": "System of Government",
+      "starred": false,
+      "type": "open",
+      "question": "Why does each state have two senators?",
+      "correctAnswers": ["equal representation", "equal representation for small states", "the great compromise", "connecticut compromise", "great compromise"]
+    },
+    {
+      "id": 29,
+      "topic": "System of Government",
+      "starred": false,
+      "type": "open",
+      "question": "Name your U.S. representative.",
+      "correctAnswers": [],
+      "selfAssess": true,
+      "note": "This answer varies by congressional district. Enter the name of your current U.S. Representative."
+    },
+    {
+      "id": 30,
+      "topic": "System of Government",
+      "starred": true,
+      "type": "open",
+      "question": "What is the name of the Speaker of the House of Representatives now?",
+      "correctAnswers": ["mike johnson", "johnson", "michael johnson"]
+    },
+    {
+      "id": 31,
+      "topic": "System of Government",
+      "starred": false,
+      "type": "mcq-single",
+      "question": "Who does a U.S. senator represent?",
+      "options": ["Citizens of their state", "Only voters who elected them", "Their political party members", "The federal government"],
+      "correctAnswer": "Citizens of their state"
+    },
+    {
+      "id": 32,
+      "topic": "System of Government",
+      "starred": false,
+      "type": "mcq-single",
+      "question": "Who elects U.S. senators?",
+      "options": ["Citizens from their state", "The state legislature", "The President", "The Electoral College"],
+      "correctAnswer": "Citizens from their state"
+    },
+    {
+      "id": 33,
+      "topic": "System of Government",
+      "starred": false,
+      "type": "mcq-single",
+      "question": "Who does a member of the House of Representatives represent?",
+      "options": ["Citizens in their congressional district", "All citizens of their state", "Their political party members", "The entire country"],
+      "correctAnswer": "Citizens in their congressional district"
+    },
+    {
+      "id": 34,
+      "topic": "System of Government",
+      "starred": false,
+      "type": "mcq-single",
+      "question": "Who elects members of the House of Representatives?",
+      "options": ["Citizens from their congressional district", "The state legislature", "The President", "All citizens of their state"],
+      "correctAnswer": "Citizens from their congressional district"
+    },
+    {
+      "id": 35,
+      "topic": "System of Government",
+      "starred": false,
+      "type": "mcq-single",
+      "question": "Some states have more representatives than other states. Why?",
+      "options": ["Because of the state's population", "Because of the state's geographic size", "Because of the state's wealth", "Because of how long a state has been in the Union"],
+      "correctAnswer": "Because of the state's population"
+    },
+    {
+      "id": 36,
+      "topic": "System of Government",
+      "starred": true,
+      "type": "mcq-single",
+      "question": "The President of the United States is elected for how many years?",
+      "options": ["4 years", "2 years", "6 years", "8 years"],
+      "correctAnswer": "4 years"
+    },
+    {
+      "id": 37,
+      "topic": "System of Government",
+      "starred": false,
+      "type": "open",
+      "question": "The President of the United States can serve only two terms. Why?",
+      "correctAnswers": ["the 22nd amendment", "22nd amendment", "to keep the president from becoming too powerful", "to prevent the president from becoming too powerful", "limits presidential power"]
+    },
+    {
+      "id": 38,
+      "topic": "System of Government",
+      "starred": true,
+      "type": "open",
+      "question": "What is the name of the President of the United States now?",
+      "correctAnswers": ["donald trump", "donald j trump", "trump"],
+      "selfAssess": true,
+      "note": "Enter the current President's name. Visit uscis.gov/citizenship/testupdates for the latest answer."
+    },
+    {
+      "id": 39,
+      "topic": "System of Government",
+      "starred": true,
+      "type": "open",
+      "question": "What is the name of the Vice President of the United States now?",
+      "correctAnswers": ["jd vance", "j.d. vance", "james david vance", "vance", "james vance"]
+    },
+    {
+      "id": 40,
+      "topic": "System of Government",
+      "starred": false,
+      "type": "mcq-single",
+      "question": "If the president can no longer serve, who becomes president?",
+      "options": ["The Vice President", "The Speaker of the House", "The Chief Justice", "The Secretary of State"],
+      "correctAnswer": "The Vice President"
+    },
+    {
+      "id": 41,
+      "topic": "System of Government",
+      "starred": false,
+      "type": "open",
+      "question": "Name one power of the president.",
+      "correctAnswers": ["signs bills into law", "vetoes bills", "enforces laws", "commander in chief", "chief diplomat", "appoints federal judges", "signs bills", "veto bills", "enforce laws"]
+    },
+    {
+      "id": 42,
+      "topic": "System of Government",
+      "starred": false,
+      "type": "mcq-single",
+      "question": "Who is Commander in Chief of the U.S. military?",
+      "options": ["The President", "The Secretary of Defense", "The Chairman of the Joint Chiefs", "The Vice President"],
+      "correctAnswer": "The President"
+    },
+    {
+      "id": 43,
+      "topic": "System of Government",
+      "starred": false,
+      "type": "mcq-single",
+      "question": "Who signs bills to become laws?",
+      "options": ["The President", "The Speaker of the House", "The Senate Majority Leader", "The Chief Justice"],
+      "correctAnswer": "The President"
+    },
+    {
+      "id": 44,
+      "topic": "System of Government",
+      "starred": true,
+      "type": "mcq-single",
+      "question": "Who vetoes bills?",
+      "options": ["The President", "The Supreme Court", "The full Senate", "The Vice President"],
+      "correctAnswer": "The President"
+    },
+    {
+      "id": 45,
+      "topic": "System of Government",
+      "starred": false,
+      "type": "mcq-single",
+      "question": "Who appoints federal judges?",
+      "options": ["The President", "The Senate", "The Chief Justice", "The Attorney General"],
+      "correctAnswer": "The President"
+    },
+    {
+      "id": 46,
+      "topic": "System of Government",
+      "starred": false,
+      "type": "open",
+      "question": "The executive branch has many parts. Name one.",
+      "correctAnswers": ["president", "the president", "cabinet", "the cabinet", "federal departments", "federal agencies", "departments and agencies"]
+    },
+    {
+      "id": 47,
+      "topic": "System of Government",
+      "starred": false,
+      "type": "mcq-single",
+      "question": "What does the President's Cabinet do?",
+      "options": ["Advises the President", "Makes federal laws", "Interprets the Constitution", "Commands the military"],
+      "correctAnswer": "Advises the President"
+    },
+    {
+      "id": 48,
+      "topic": "System of Government",
+      "starred": false,
+      "type": "mcq-multi",
+      "question": "What are two Cabinet-level positions?",
+      "options": ["Secretary of State", "Attorney General", "Secretary of the Treasury", "Secretary of Defense", "Secretary of Education", "Vice President", "White House Chief of Staff", "National Security Advisor"],
+      "correctAnswers": ["Secretary of State", "Attorney General", "Secretary of the Treasury", "Secretary of Defense", "Secretary of Education", "Vice President"],
+      "requiredCount": 2
+    },
+    {
+      "id": 49,
+      "topic": "System of Government",
+      "starred": false,
+      "type": "open",
+      "question": "Why is the Electoral College important?",
+      "correctAnswers": ["it decides who is elected president", "decides who is elected president", "provides a compromise between popular election and congressional selection", "provides a compromise", "elects the president"]
+    },
+    {
+      "id": 50,
+      "topic": "System of Government",
+      "starred": false,
+      "type": "open",
+      "question": "What is one part of the judicial branch?",
+      "correctAnswers": ["supreme court", "the supreme court", "federal courts", "federal court"]
+    },
+    {
+      "id": 51,
+      "topic": "System of Government",
+      "starred": false,
+      "type": "open",
+      "question": "What does the judicial branch do?",
+      "correctAnswers": ["reviews laws", "explains laws", "resolves disputes", "resolves disagreements about the law", "decides if a law goes against the constitution", "interprets laws"]
+    },
+    {
+      "id": 52,
+      "topic": "System of Government",
+      "starred": true,
+      "type": "mcq-single",
+      "question": "What is the highest court in the United States?",
+      "options": ["Supreme Court", "Federal Court of Appeals", "District Court", "Constitutional Court"],
+      "correctAnswer": "Supreme Court"
+    },
+    {
+      "id": 53,
+      "topic": "System of Government",
+      "starred": false,
+      "type": "mcq-single",
+      "question": "How many seats are on the Supreme Court?",
+      "options": ["9", "7", "11", "5"],
+      "correctAnswer": "9"
+    },
+    {
+      "id": 54,
+      "topic": "System of Government",
+      "starred": false,
+      "type": "mcq-single",
+      "question": "How many Supreme Court justices are usually needed to decide a case?",
+      "options": ["5", "7", "6", "9"],
+      "correctAnswer": "5"
+    },
+    {
+      "id": 55,
+      "topic": "System of Government",
+      "starred": false,
+      "type": "mcq-single",
+      "question": "How long do Supreme Court justices serve?",
+      "options": ["For life (lifetime appointment)", "10 years", "6 years", "4 years"],
+      "correctAnswer": "For life (lifetime appointment)"
+    },
+    {
+      "id": 56,
+      "topic": "System of Government",
+      "starred": false,
+      "type": "open",
+      "question": "Supreme Court justices serve for life. Why?",
+      "correctAnswers": ["to be independent of politics", "to limit outside influence", "to limit political influence", "to be independent", "independence from politics"]
+    },
+    {
+      "id": 57,
+      "topic": "System of Government",
+      "starred": false,
+      "type": "open",
+      "question": "Who is the Chief Justice of the United States now?",
+      "correctAnswers": ["john roberts", "john g roberts", "roberts", "john g. roberts jr"]
+    },
+    {
+      "id": 58,
+      "topic": "System of Government",
+      "starred": false,
+      "type": "open",
+      "question": "Name one power that is only for the federal government.",
+      "correctAnswers": ["print paper money", "print money", "mint coins", "declare war", "create an army", "make treaties", "set foreign policy", "foreign policy"]
+    },
+    {
+      "id": 59,
+      "topic": "System of Government",
+      "starred": false,
+      "type": "open",
+      "question": "Name one power that is only for the states.",
+      "correctAnswers": ["provide schooling and education", "provide education", "education", "provide protection", "police", "provide safety", "fire departments", "give a driver's license", "driver's license", "approve zoning and land use", "zoning"]
+    },
+    {
+      "id": 60,
+      "topic": "System of Government",
+      "starred": false,
+      "type": "mcq-single",
+      "question": "What is the purpose of the 10th Amendment?",
+      "options": ["Powers not given to the federal government belong to the states or the people", "It guarantees freedom of speech and religion", "It abolished slavery", "It gave citizens the right to vote"],
+      "correctAnswer": "Powers not given to the federal government belong to the states or the people"
+    },
+    {
+      "id": 61,
+      "topic": "System of Government",
+      "starred": true,
+      "type": "open",
+      "question": "Who is the governor of your state now?",
+      "correctAnswers": [],
+      "selfAssess": true,
+      "note": "This answer varies by state. Enter the name of your current state Governor."
+    },
+    {
+      "id": 62,
+      "topic": "System of Government",
+      "starred": false,
+      "type": "open",
+      "question": "What is the capital of your state?",
+      "correctAnswers": [],
+      "selfAssess": true,
+      "note": "This answer varies by state. Enter your state's capital city."
+    },
+    {
+      "id": 63,
+      "topic": "Rights and Responsibilities",
+      "starred": false,
+      "type": "open",
+      "question": "There are four amendments to the U.S. Constitution about who can vote. Describe one of them.",
+      "correctAnswers": ["citizens 18 and older can vote", "18 and older can vote", "you don't have to pay a poll tax to vote", "no poll tax to vote", "any citizen can vote", "a male citizen of any race can vote", "women can vote", "women and men can vote"]
+    },
+    {
+      "id": 64,
+      "topic": "Rights and Responsibilities",
+      "starred": false,
+      "type": "mcq-single",
+      "question": "Who can vote in federal elections, run for federal office, and serve on a jury in the United States?",
+      "options": ["Citizens", "All residents", "All adults age 18 and older", "All taxpayers"],
+      "correctAnswer": "Citizens"
+    },
+    {
+      "id": 65,
+      "topic": "Rights and Responsibilities",
+      "starred": false,
+      "type": "mcq-multi",
+      "question": "What are three rights of everyone living in the United States?",
+      "options": ["Freedom of speech", "Freedom of religion", "Freedom of assembly", "Freedom to petition the government", "The right to bear arms", "Freedom of expression", "The right to free healthcare", "The right to guaranteed employment"],
+      "correctAnswers": ["Freedom of speech", "Freedom of religion", "Freedom of assembly", "Freedom to petition the government", "The right to bear arms", "Freedom of expression"],
+      "requiredCount": 3
+    },
+    {
+      "id": 66,
+      "topic": "Rights and Responsibilities",
+      "starred": true,
+      "type": "mcq-single",
+      "question": "What do we show loyalty to when we say the Pledge of Allegiance?",
+      "options": ["The United States and its flag", "The President", "The Constitution", "The Congress"],
+      "correctAnswer": "The United States and its flag"
+    },
+    {
+      "id": 67,
+      "topic": "Rights and Responsibilities",
+      "starred": false,
+      "type": "mcq-multi",
+      "question": "Name two promises that new citizens make in the Oath of Allegiance.",
+      "options": ["Give up loyalty to other countries", "Defend the U.S. Constitution", "Obey the laws of the United States", "Serve in the military if needed", "Be loyal to the United States", "Serve the nation if needed", "Pay double taxes for 5 years", "Surrender your foreign passport"],
+      "correctAnswers": ["Give up loyalty to other countries", "Defend the U.S. Constitution", "Obey the laws of the United States", "Serve in the military if needed", "Be loyal to the United States", "Serve the nation if needed"],
+      "requiredCount": 2
+    },
+    {
+      "id": 68,
+      "topic": "Rights and Responsibilities",
+      "starred": false,
+      "type": "open",
+      "question": "How can people become United States citizens?",
+      "correctAnswers": ["be born in the united states", "born in the united states", "naturalize", "naturalization", "derive citizenship", "born here", "citizenship by birth"]
+    },
+    {
+      "id": 69,
+      "topic": "Rights and Responsibilities",
+      "starred": false,
+      "type": "mcq-multi",
+      "question": "What are two examples of civic participation in the United States?",
+      "options": ["Vote", "Run for office", "Join a political party", "Contact elected officials", "Join a civic group", "Write to a newspaper", "Avoid paying taxes", "Ignore government decisions"],
+      "correctAnswers": ["Vote", "Run for office", "Join a political party", "Contact elected officials", "Join a civic group", "Write to a newspaper"],
+      "requiredCount": 2
+    },
+    {
+      "id": 70,
+      "topic": "Rights and Responsibilities",
+      "starred": false,
+      "type": "open",
+      "question": "What is one way Americans can serve their country?",
+      "correctAnswers": ["vote", "pay taxes", "obey the law", "serve in the military", "run for office", "work for local state or federal government", "work for government", "military service"]
+    },
+    {
+      "id": 71,
+      "topic": "Rights and Responsibilities",
+      "starred": false,
+      "type": "open",
+      "question": "Why is it important to pay federal taxes?",
+      "correctAnswers": ["required by law", "fund the federal government", "required by the constitution", "16th amendment", "civic duty", "to fund the government", "pays for government services"]
+    },
+    {
+      "id": 72,
+      "topic": "Rights and Responsibilities",
+      "starred": false,
+      "type": "open",
+      "question": "It is important for all men age 18 through 25 to register for the Selective Service. Name one reason why.",
+      "correctAnswers": ["required by law", "civic duty", "makes the draft fair", "to make the draft fair", "in case of a draft"]
+    },
+    {
+      "id": 73,
+      "topic": "Colonial Period and Independence",
+      "starred": false,
+      "type": "open",
+      "question": "The colonists came to America for many reasons. Name one.",
+      "correctAnswers": ["freedom", "political liberty", "religious freedom", "economic opportunity", "escape persecution", "liberty", "practice their religion"]
+    },
+    {
+      "id": 74,
+      "topic": "Colonial Period and Independence",
+      "starred": true,
+      "type": "mcq-single",
+      "question": "Who lived in America before the Europeans arrived?",
+      "options": ["American Indians / Native Americans", "British settlers", "Spanish explorers", "African traders"],
+      "correctAnswer": "American Indians / Native Americans"
+    },
+    {
+      "id": 75,
+      "topic": "Colonial Period and Independence",
+      "starred": false,
+      "type": "mcq-single",
+      "question": "What group of people was taken and sold as slaves?",
+      "options": ["Africans / people from Africa", "Europeans", "Native Americans", "Asians"],
+      "correctAnswer": "Africans / people from Africa"
+    },
+    {
+      "id": 76,
+      "topic": "Colonial Period and Independence",
+      "starred": false,
+      "type": "mcq-single",
+      "question": "What war did the Americans fight to win independence from Britain?",
+      "options": ["The American Revolutionary War", "The Civil War", "The War of 1812", "The French and Indian War"],
+      "correctAnswer": "The American Revolutionary War"
+    },
+    {
+      "id": 77,
+      "topic": "Colonial Period and Independence",
+      "starred": false,
+      "type": "open",
+      "question": "Name one reason why the Americans declared independence from Britain.",
+      "correctAnswers": ["high taxes", "taxation without representation", "british soldiers stayed in americans houses", "boarding", "quartering", "no self-government", "boston massacre", "boston tea party", "tea act", "stamp act", "sugar act", "townshend acts", "intolerable acts", "coercive acts"]
+    },
+    {
+      "id": 78,
+      "topic": "Colonial Period and Independence",
+      "starred": true,
+      "type": "mcq-single",
+      "question": "Who wrote the Declaration of Independence?",
+      "options": ["Thomas Jefferson", "Benjamin Franklin", "George Washington", "John Adams"],
+      "correctAnswer": "Thomas Jefferson"
+    },
+    {
+      "id": 79,
+      "topic": "Colonial Period and Independence",
+      "starred": false,
+      "type": "mcq-single",
+      "question": "When was the Declaration of Independence adopted?",
+      "options": ["July 4, 1776", "July 4, 1789", "July 4, 1783", "July 4, 1775"],
+      "correctAnswer": "July 4, 1776"
+    },
+    {
+      "id": 80,
+      "topic": "Colonial Period and Independence",
+      "starred": false,
+      "type": "open",
+      "question": "The American Revolution had many important events. Name one.",
+      "correctAnswers": ["battle of bunker hill", "bunker hill", "declaration of independence", "washington crossing the delaware", "battle of trenton", "battle of saratoga", "saratoga", "valley forge", "battle of yorktown", "yorktown", "british surrender at yorktown"]
+    },
+    {
+      "id": 81,
+      "topic": "Colonial Period and Independence",
+      "starred": false,
+      "type": "mcq-multi",
+      "question": "There were 13 original states. Name five.",
+      "options": ["New Hampshire", "Massachusetts", "Rhode Island", "Connecticut", "New York", "New Jersey", "Pennsylvania", "Delaware", "Maryland", "Virginia", "North Carolina", "South Carolina", "Georgia", "Kentucky", "Vermont", "Tennessee"],
+      "correctAnswers": ["New Hampshire", "Massachusetts", "Rhode Island", "Connecticut", "New York", "New Jersey", "Pennsylvania", "Delaware", "Maryland", "Virginia", "North Carolina", "South Carolina", "Georgia"],
+      "requiredCount": 5
+    },
+    {
+      "id": 82,
+      "topic": "Colonial Period and Independence",
+      "starred": false,
+      "type": "mcq-single",
+      "question": "What founding document was written in 1787?",
+      "options": ["U.S. Constitution", "Declaration of Independence", "Bill of Rights", "Articles of Confederation"],
+      "correctAnswer": "U.S. Constitution"
+    },
+    {
+      "id": 83,
+      "topic": "Colonial Period and Independence",
+      "starred": false,
+      "type": "open",
+      "question": "The Federalist Papers supported the passage of the U.S. Constitution. Name one of the writers.",
+      "correctAnswers": ["madison", "hamilton", "jay", "james madison", "alexander hamilton", "john jay", "publius"]
+    },
+    {
+      "id": 84,
+      "topic": "Colonial Period and Independence",
+      "starred": false,
+      "type": "open",
+      "question": "Why were the Federalist Papers important?",
+      "correctAnswers": ["helped people understand the constitution", "they helped people understand the constitution", "supported passing the constitution", "they supported passing the constitution", "explained the constitution"]
+    },
+    {
+      "id": 85,
+      "topic": "Colonial Period and Independence",
+      "starred": false,
+      "type": "open",
+      "question": "Benjamin Franklin is famous for many things. Name one.",
+      "correctAnswers": ["founded the first free public libraries", "first free public libraries", "free libraries", "first postmaster general", "postmaster general", "helped write the declaration of independence", "inventor", "u.s. diplomat", "diplomat"]
+    },
+    {
+      "id": 86,
+      "topic": "Colonial Period and Independence",
+      "starred": true,
+      "type": "open",
+      "question": "George Washington is famous for many things. Name one.",
+      "correctAnswers": ["father of our country", "first president", "first president of the united states", "general of the continental army", "continental army general", "president of the constitutional convention"]
+    },
+    {
+      "id": 87,
+      "topic": "Colonial Period and Independence",
+      "starred": false,
+      "type": "open",
+      "question": "Thomas Jefferson is famous for many things. Name one.",
+      "correctAnswers": ["writer of the declaration of independence", "third president", "third president of the united states", "doubled the size of the united states", "louisiana purchase", "first secretary of state", "founded the university of virginia", "writer of the virginia statute on religious freedom"]
+    },
+    {
+      "id": 88,
+      "topic": "Colonial Period and Independence",
+      "starred": false,
+      "type": "open",
+      "question": "James Madison is famous for many things. Name one.",
+      "correctAnswers": ["father of the constitution", "fourth president", "fourth president of the united states", "president during the war of 1812", "one of the writers of the federalist papers", "federalist papers writer"]
+    },
+    {
+      "id": 89,
+      "topic": "Colonial Period and Independence",
+      "starred": false,
+      "type": "open",
+      "question": "Alexander Hamilton is famous for many things. Name one.",
+      "correctAnswers": ["first secretary of the treasury", "secretary of the treasury", "one of the writers of the federalist papers", "federalist papers writer", "helped establish the first bank", "first bank of the united states", "aide to general george washington", "member of the continental congress"]
+    },
+    {
+      "id": 90,
+      "topic": "1800s",
+      "starred": false,
+      "type": "mcq-single",
+      "question": "What territory did the United States buy from France in 1803?",
+      "options": ["Louisiana Territory", "Florida Territory", "Alaska Territory", "Oregon Territory"],
+      "correctAnswer": "Louisiana Territory"
+    },
+    {
+      "id": 91,
+      "topic": "1800s",
+      "starred": false,
+      "type": "open",
+      "question": "Name one war fought by the United States in the 1800s.",
+      "correctAnswers": ["war of 1812", "mexican-american war", "civil war", "the civil war", "spanish-american war"]
+    },
+    {
+      "id": 92,
+      "topic": "1800s",
+      "starred": false,
+      "type": "mcq-single",
+      "question": "Name the U.S. war between the North and the South.",
+      "options": ["The Civil War", "The Revolutionary War", "The War of 1812", "The Mexican-American War"],
+      "correctAnswer": "The Civil War"
+    },
+    {
+      "id": 93,
+      "topic": "1800s",
+      "starred": false,
+      "type": "open",
+      "question": "The Civil War had many important events. Name one.",
+      "correctAnswers": ["fort sumter", "battle of fort sumter", "emancipation proclamation", "vicksburg", "battle of vicksburg", "gettysburg", "battle of gettysburg", "sherman's march", "surrender at appomattox", "appomattox", "antietam", "battle of antietam", "sharpsburg", "lincoln was assassinated", "lincoln assassination"]
+    },
+    {
+      "id": 94,
+      "topic": "1800s",
+      "starred": true,
+      "type": "open",
+      "question": "Abraham Lincoln is famous for many things. Name one.",
+      "correctAnswers": ["freed the slaves", "emancipation proclamation", "saved the union", "preserved the union", "led the united states during the civil war", "16th president", "16th president of the united states", "delivered the gettysburg address", "gettysburg address"]
+    },
+    {
+      "id": 95,
+      "topic": "1800s",
+      "starred": false,
+      "type": "mcq-single",
+      "question": "What did the Emancipation Proclamation do?",
+      "options": ["Freed enslaved people in Confederate states", "Ended the Civil War", "Gave women the right to vote", "Created the Union Army"],
+      "correctAnswer": "Freed enslaved people in Confederate states"
+    },
+    {
+      "id": 96,
+      "topic": "1800s",
+      "starred": false,
+      "type": "mcq-single",
+      "question": "What U.S. war ended slavery?",
+      "options": ["The Civil War", "The Revolutionary War", "World War I", "The Mexican-American War"],
+      "correctAnswer": "The Civil War"
+    },
+    {
+      "id": 97,
+      "topic": "1800s",
+      "starred": false,
+      "type": "mcq-single",
+      "question": "What amendment says all persons born or naturalized in the United States are U.S. citizens?",
+      "options": ["14th Amendment", "13th Amendment", "15th Amendment", "19th Amendment"],
+      "correctAnswer": "14th Amendment"
+    },
+    {
+      "id": 98,
+      "topic": "1800s",
+      "starred": false,
+      "type": "open",
+      "question": "When did all men get the right to vote?",
+      "correctAnswers": ["after the civil war", "during reconstruction", "15th amendment", "with the 15th amendment", "1870"]
+    },
+    {
+      "id": 99,
+      "topic": "1800s",
+      "starred": false,
+      "type": "open",
+      "question": "Name one leader of the women's rights movement in the 1800s.",
+      "correctAnswers": ["susan b anthony", "susan b. anthony", "elizabeth cady stanton", "sojourner truth", "harriet tubman", "lucretia mott", "lucy stone"]
+    },
+    {
+      "id": 100,
+      "topic": "Recent American History",
+      "starred": false,
+      "type": "open",
+      "question": "Name one war fought by the United States in the 1900s.",
+      "correctAnswers": ["world war i", "world war ii", "korean war", "vietnam war", "gulf war", "persian gulf war", "world war 1", "world war 2", "wwi", "wwii"]
+    },
+    {
+      "id": 101,
+      "topic": "Recent American History",
+      "starred": false,
+      "type": "open",
+      "question": "Why did the United States enter World War I?",
+      "correctAnswers": ["germany attacked us ships", "germany attacked u.s. ships", "to support the allied powers", "to oppose the central powers", "allied powers"]
+    },
+    {
+      "id": 102,
+      "topic": "Recent American History",
+      "starred": false,
+      "type": "mcq-single",
+      "question": "When did all women get the right to vote?",
+      "options": ["1920 (19th Amendment)", "1945", "1870", "1913"],
+      "correctAnswer": "1920 (19th Amendment)"
+    },
+    {
+      "id": 103,
+      "topic": "Recent American History",
+      "starred": false,
+      "type": "mcq-single",
+      "question": "What was the Great Depression?",
+      "options": ["The longest economic recession in modern history", "A major world war in the 1930s", "A period of rapid economic growth", "A series of natural disasters"],
+      "correctAnswer": "The longest economic recession in modern history"
+    },
+    {
+      "id": 104,
+      "topic": "Recent American History",
+      "starred": false,
+      "type": "mcq-single",
+      "question": "When did the Great Depression start?",
+      "options": ["1929 (stock market crash)", "1933", "1941", "1925"],
+      "correctAnswer": "1929 (stock market crash)"
+    },
+    {
+      "id": 105,
+      "topic": "Recent American History",
+      "starred": false,
+      "type": "mcq-single",
+      "question": "Who was president during the Great Depression and World War II?",
+      "options": ["Franklin Roosevelt", "Woodrow Wilson", "Herbert Hoover", "Harry Truman"],
+      "correctAnswer": "Franklin Roosevelt"
+    },
+    {
+      "id": 106,
+      "topic": "Recent American History",
+      "starred": false,
+      "type": "open",
+      "question": "Why did the United States enter World War II?",
+      "correctAnswers": ["pearl harbor", "bombing of pearl harbor", "japanese attacked pearl harbor", "to support the allied powers", "to oppose the axis powers", "japan attacked pearl harbor"]
+    },
+    {
+      "id": 107,
+      "topic": "Recent American History",
+      "starred": false,
+      "type": "open",
+      "question": "Dwight Eisenhower is famous for many things. Name one.",
+      "correctAnswers": ["general during world war ii", "general in world war ii", "president at the end of the korean war", "34th president", "34th president of the united states", "signed the federal-aid highway act", "created the interstate system", "interstate highway system"]
+    },
+    {
+      "id": 108,
+      "topic": "Recent American History",
+      "starred": false,
+      "type": "mcq-single",
+      "question": "Who was the United States' main rival during the Cold War?",
+      "options": ["The Soviet Union (USSR)", "China", "Cuba", "North Korea"],
+      "correctAnswer": "The Soviet Union (USSR)"
+    },
+    {
+      "id": 109,
+      "topic": "Recent American History",
+      "starred": false,
+      "type": "open",
+      "question": "During the Cold War, what was one main concern of the United States?",
+      "correctAnswers": ["communism", "nuclear war", "spread of communism", "threat of nuclear war"]
+    },
+    {
+      "id": 110,
+      "topic": "Recent American History",
+      "starred": false,
+      "type": "mcq-single",
+      "question": "Why did the United States enter the Korean War?",
+      "options": ["To stop the spread of communism", "To recover stolen territory", "To support Japan", "To access Korean resources"],
+      "correctAnswer": "To stop the spread of communism"
+    },
+    {
+      "id": 111,
+      "topic": "Recent American History",
+      "starred": false,
+      "type": "mcq-single",
+      "question": "Why did the United States enter the Vietnam War?",
+      "options": ["To stop the spread of communism", "To defend a NATO ally", "To recover American prisoners", "To secure trade routes"],
+      "correctAnswer": "To stop the spread of communism"
+    },
+    {
+      "id": 112,
+      "topic": "Recent American History",
+      "starred": false,
+      "type": "mcq-single",
+      "question": "What did the civil rights movement do?",
+      "options": ["Fought to end racial discrimination", "Fought to end poverty", "Fought to give women the right to vote", "Fought to end the Vietnam War"],
+      "correctAnswer": "Fought to end racial discrimination"
+    },
+    {
+      "id": 113,
+      "topic": "Recent American History",
+      "starred": true,
+      "type": "open",
+      "question": "Martin Luther King, Jr. is famous for many things. Name one.",
+      "correctAnswers": ["fought for civil rights", "worked for equality for all americans", "worked for equality", "civil rights leader", "worked to ensure people would not be judged by the color of their skin", "i have a dream speech", "i have a dream"]
+    },
+    {
+      "id": 114,
+      "topic": "Recent American History",
+      "starred": false,
+      "type": "mcq-single",
+      "question": "Why did the United States enter the Persian Gulf War?",
+      "options": ["To force the Iraqi military from Kuwait", "To control Iraqi oil reserves", "To respond to a terrorist attack", "To support a NATO ally"],
+      "correctAnswer": "To force the Iraqi military from Kuwait"
+    },
+    {
+      "id": 115,
+      "topic": "Recent American History",
+      "starred": true,
+      "type": "open",
+      "question": "What major event happened on September 11, 2001 in the United States?",
+      "correctAnswers": ["terrorists attacked the united states", "terrorists attacked the us", "terrorist attack on the united states", "terrorists hijacked planes", "terrorists crashed planes into the world trade center", "9/11 attacks", "terrorist attacks"]
+    },
+    {
+      "id": 116,
+      "topic": "Recent American History",
+      "starred": false,
+      "type": "open",
+      "question": "Name one U.S. military conflict after the September 11, 2001 attacks.",
+      "correctAnswers": ["war on terror", "global war on terror", "war in afghanistan", "afghanistan war", "war in iraq", "iraq war"]
+    },
+    {
+      "id": 117,
+      "topic": "Recent American History",
+      "starred": false,
+      "type": "open",
+      "question": "Name one American Indian tribe in the United States.",
+      "correctAnswers": ["apache", "blackfeet", "cayuga", "cherokee", "cheyenne", "chippewa", "choctaw", "creek", "crow", "hopi", "huron", "lakota", "mohawk", "mohegan", "navajo", "oneida", "onondaga", "pueblo", "seminole", "seneca", "shawnee", "sioux", "teton", "tuscarora", "inupiat"]
+    },
+    {
+      "id": 118,
+      "topic": "Recent American History",
+      "starred": false,
+      "type": "open",
+      "question": "Name one example of an American innovation.",
+      "correctAnswers": ["light bulb", "automobile", "cars", "skyscrapers", "airplane", "assembly line", "landing on the moon", "moon landing", "integrated circuit", "ic chip"]
+    },
+    {
+      "id": 119,
+      "topic": "Symbols",
+      "starred": false,
+      "type": "mcq-single",
+      "question": "What is the capital of the United States?",
+      "options": ["Washington, D.C.", "New York City", "Philadelphia", "Boston"],
+      "correctAnswer": "Washington, D.C."
+    },
+    {
+      "id": 120,
+      "topic": "Symbols",
+      "starred": false,
+      "type": "mcq-single",
+      "question": "Where is the Statue of Liberty?",
+      "options": ["New York Harbor / Liberty Island", "Boston Harbor", "Philadelphia", "Washington, D.C."],
+      "correctAnswer": "New York Harbor / Liberty Island"
+    },
+    {
+      "id": 121,
+      "topic": "Symbols",
+      "starred": true,
+      "type": "mcq-single",
+      "question": "Why does the flag have 13 stripes?",
+      "options": ["Because there were 13 original colonies", "Because of 13 founding fathers", "Because of the 13 amendments", "Because there were 13 original presidents"],
+      "correctAnswer": "Because there were 13 original colonies"
+    },
+    {
+      "id": 122,
+      "topic": "Symbols",
+      "starred": false,
+      "type": "mcq-single",
+      "question": "Why does the flag have 50 stars?",
+      "options": ["Because there is one star for each state (50 states)", "Because there were 50 original territories", "Because of the 50 amendments", "Because of 50 founding documents"],
+      "correctAnswer": "Because there is one star for each state (50 states)"
+    },
+    {
+      "id": 123,
+      "topic": "Symbols",
+      "starred": false,
+      "type": "mcq-single",
+      "question": "What is the name of the national anthem?",
+      "options": ["The Star-Spangled Banner", "America the Beautiful", "God Bless America", "My Country 'Tis of Thee"],
+      "correctAnswer": "The Star-Spangled Banner"
+    },
+    {
+      "id": 124,
+      "topic": "Symbols",
+      "starred": false,
+      "type": "mcq-single",
+      "question": "The Nation's first motto was \"E Pluribus Unum.\" What does that mean?",
+      "options": ["Out of many, one", "In God we trust", "Land of the free", "United we stand"],
+      "correctAnswer": "Out of many, one"
+    },
+    {
+      "id": 125,
+      "topic": "Holidays",
+      "starred": false,
+      "type": "open",
+      "question": "What is Independence Day?",
+      "correctAnswers": ["a holiday to celebrate us independence", "celebrate independence from britain", "the country's birthday", "country's birthday", "celebrates independence", "celebrates us independence from britain"]
+    },
+    {
+      "id": 126,
+      "topic": "Holidays",
+      "starred": true,
+      "type": "mcq-multi",
+      "question": "Name three national U.S. holidays.",
+      "options": ["New Year's Day", "Martin Luther King, Jr. Day", "Presidents Day", "Memorial Day", "Juneteenth", "Independence Day", "Labor Day", "Columbus Day", "Veterans Day", "Thanksgiving Day", "Christmas Day", "Valentine's Day", "St. Patrick's Day"],
+      "correctAnswers": ["New Year's Day", "Martin Luther King, Jr. Day", "Presidents Day", "Memorial Day", "Juneteenth", "Independence Day", "Labor Day", "Columbus Day", "Veterans Day", "Thanksgiving Day", "Christmas Day"],
+      "requiredCount": 3
+    },
+    {
+      "id": 127,
+      "topic": "Holidays",
+      "starred": false,
+      "type": "mcq-single",
+      "question": "What is Memorial Day?",
+      "options": ["A holiday to honor soldiers who died in military service", "A holiday to honor all veterans who served", "A holiday celebrating the end of World War II", "A holiday celebrating American independence"],
+      "correctAnswer": "A holiday to honor soldiers who died in military service"
+    },
+    {
+      "id": 128,
+      "topic": "Holidays",
+      "starred": false,
+      "type": "mcq-single",
+      "question": "What is Veterans Day?",
+      "options": ["A holiday to honor people who have served in the U.S. military", "A holiday to honor soldiers who died in battle", "A holiday celebrating the founding of the U.S. military", "A holiday to remember all American wars"],
+      "correctAnswer": "A holiday to honor people who have served in the U.S. military"
+    }
+  ]
+}

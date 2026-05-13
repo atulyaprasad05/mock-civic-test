@@ -391,6 +391,65 @@ body {
   font-weight: 600;
 }
 
+/* Correct option the user didn't select */
+.option-label.missed {
+  border-color: var(--color-success) !important;
+  background: #F0FDF4 !important;
+  color: var(--color-success) !important;
+  opacity: 0.8;
+}
+
+/* ===== Multi-Select (checkbox) Options ===== */
+.multi-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.multi-instruction {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  padding: 0 2px;
+}
+
+.multi-counter {
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+  padding: 0 2px;
+}
+
+.option-item input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* Square indicator for checkboxes instead of circle */
+.option-label-multi::before {
+  border-radius: 4px;
+}
+
+.option-item input[type="checkbox"]:checked + .option-label-multi {
+  border-color: var(--color-primary);
+  background: #EFF6FF;
+  color: var(--color-primary);
+}
+
+.option-item input[type="checkbox"]:checked + .option-label-multi::before {
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+  box-shadow: inset 0 0 0 3px #fff;
+  border-radius: 4px;
+}
+
+/* Greyed out when limit reached and option is unchosen */
+.option-item input[type="checkbox"]:disabled + .option-label-multi {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
 /* ===== Open Answer Input ===== */
 .open-input-wrapper {
   display: flex;

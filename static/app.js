@@ -24,7 +24,7 @@ const screens = {
 
 document.addEventListener('DOMContentLoaded', async () => {
   try {
-    const res = await fetch('data/questions.json');
+    const res = await fetch('data/questions_2025.json');
     if (!res.ok) throw new Error('HTTP ' + res.status);
     const data = await res.json();
     state.allQuestions = data.questions;
@@ -48,8 +48,6 @@ document.addEventListener('DOMContentLoaded', async () => {
   document.getElementById('btn-restart').addEventListener('click', restartTest);
   document.getElementById('btn-submit').addEventListener('click', handleSubmit);
   document.getElementById('btn-next').addEventListener('click', advance);
-  document.getElementById('btn-yes').addEventListener('click', () => selfAssess(true));
-  document.getElementById('btn-no').addEventListener('click', () => selfAssess(false));
 });
 
 // ─── Navigation ──────────────────────────────────────────────────────────────
@@ -184,8 +182,10 @@ function renderQuestion() {
   const answerArea = document.getElementById('answer-area');
   answerArea.innerHTML = '';
 
-  if (q.type === 'mcq') {
+  if (q.type === 'mcq-single') {
     answerArea.appendChild(buildMcqOptions(q));
+  } else if (q.type === 'mcq-multi') {
+    answerArea.appendChild(buildMultiOptions(q));
   } else {
     answerArea.appendChild(buildOpenInput());
   }
@@ -194,15 +194,24 @@ function renderQuestion() {
   resetFeedbackPanels();
 
   // Button visibility
-  document.getElementById('btn-submit').style.display = q.type === 'open' ? 'flex' : 'none';
-  document.getElementById('btn-next').style.display = 'none';
-  if (q.type === 'mcq') {
-    document.getElementById('btn-next').style.display = 'flex';
-    document.getElementById('btn-next').disabled = true;
-    document.getElementById('btn-next').textContent = isLastQuestion() ? 'See Results' : 'Next Question';
+  const btnSubmit = document.getElementById('btn-submit');
+  const btnNext = document.getElementById('btn-next');
+
+  btnSubmit.style.display = 'none';
+  btnNext.style.display = 'none';
+
+  if (q.type === 'mcq-single') {
+    btnNext.style.display = 'flex';
+    btnNext.disabled = true;
+    btnNext.textContent = isLastQuestion() ? 'See Results' : 'Next Question';
+  } else if (q.type === 'mcq-multi') {
+    btnSubmit.style.display = 'flex';
+    btnSubmit.textContent = 'Submit Answer';
+    btnSubmit.disabled = true;
   } else {
-    document.getElementById('btn-submit').textContent = 'Submit Answer';
-    document.getElementById('btn-submit').disabled = false;
+    btnSubmit.style.display = 'flex';
+    btnSubmit.textContent = 'Submit Answer';
+    btnSubmit.disabled = false;
   }
 
   state.pendingAnswer = null;
@@ -241,6 +250,71 @@ function buildMcqOptions(q) {
   return list;
 }
 
+function buildMultiOptions(q) {
+  const wrapper = document.createElement('div');
+  wrapper.className = 'multi-wrapper';
+
+  const instruction = document.createElement('p');
+  instruction.className = 'multi-instruction';
+  instruction.textContent = 'Select exactly ' + q.requiredCount + ' answer' + (q.requiredCount !== 1 ? 's' : '');
+  wrapper.appendChild(instruction);
+
+  const counter = document.createElement('p');
+  counter.className = 'multi-counter';
+  counter.id = 'multi-counter';
+  counter.textContent = '0 / ' + q.requiredCount + ' selected';
+  wrapper.appendChild(counter);
+
+  const options = shuffle([...q.options]);
+  const list = document.createElement('ul');
+  list.className = 'options-list';
+
+  state.pendingAnswer = [];
+
+  options.forEach((opt, i) => {
+    const li = document.createElement('li');
+    li.className = 'option-item';
+
+    const input = document.createElement('input');
+    input.type = 'checkbox';
+    input.name = 'multi-option';
+    input.id = 'opt-' + i;
+    input.value = opt;
+
+    const label = document.createElement('label');
+    label.className = 'option-label option-label-multi';
+    label.htmlFor = 'opt-' + i;
+    label.textContent = opt;
+
+    input.addEventListener('change', () => updateMultiSelection(q));
+
+    li.appendChild(input);
+    li.appendChild(label);
+    list.appendChild(li);
+  });
+
+  wrapper.appendChild(list);
+  return wrapper;
+}
+
+function updateMultiSelection(q) {
+  const checkboxes = document.querySelectorAll('input[name="multi-option"]');
+  const checked = Array.from(checkboxes).filter(c => c.checked);
+  const count = checked.length;
+  const required = q.requiredCount;
+
+  state.pendingAnswer = checked.map(c => c.value);
+
+  document.getElementById('multi-counter').textContent = count + ' / ' + required + ' selected';
+
+  // Disable unchecked boxes when limit reached
+  checkboxes.forEach(cb => {
+    if (!cb.checked) cb.disabled = count >= required;
+  });
+
+  document.getElementById('btn-submit').disabled = count !== required;
+}
+
 function buildOpenInput() {
   const wrapper = document.createElement('div');
   wrapper.className = 'open-input-wrapper';
@@ -276,6 +350,13 @@ function resetFeedbackPanels() {
 
 function handleSubmit() {
   const q = state.selectedQuestions[state.currentIndex];
+
+  if (q.type === 'mcq-multi') {
+    handleMultiSubmit(q);
+    return;
+  }
+
+  // Open answer
   const input = document.getElementById('open-input');
   const userInput = input ? input.value.trim() : '';
 
@@ -297,6 +378,36 @@ function handleSubmit() {
       showSelfAssessPanel(q, userInput);
     }
   }
+}
+
+function handleMultiSubmit(q) {
+  const selected = Array.isArray(state.pendingAnswer) ? state.pendingAnswer : [];
+  if (selected.length !== q.requiredCount) return;
+
+  // Lock all checkboxes and hide submit button
+  document.querySelectorAll('input[name="multi-option"]').forEach(cb => { cb.disabled = true; });
+  document.getElementById('btn-submit').style.display = 'none';
+
+  const correct = selected.every(s => q.correctAnswers.some(ca => normalizeStr(ca) === normalizeStr(s)));
+
+  recordAnswer(q.id, selected.join(', '), correct, false);
+
+  // Colour feedback: selected-correct = green, selected-wrong = red, unselected-correct = subtle highlight
+  document.querySelectorAll('input[name="multi-option"]').forEach(cb => {
+    const label = document.querySelector('label[for="' + cb.id + '"]');
+    const isCorrect = q.correctAnswers.some(ca => normalizeStr(ca) === normalizeStr(cb.value));
+    const wasSelected = selected.some(s => normalizeStr(s) === normalizeStr(cb.value));
+
+    if (wasSelected && isCorrect) {
+      label.classList.add('correct');
+    } else if (wasSelected && !isCorrect) {
+      label.classList.add('incorrect');
+    } else if (!wasSelected && isCorrect) {
+      label.classList.add('missed');
+    }
+  });
+
+  showNextButton();
 }
 
 function showOpenFeedback(correct, displayAnswer) {
@@ -348,11 +459,11 @@ function selfAssess(correct) {
   showNextButton();
 }
 
-// Handles MCQ "Next" click — grade is determined here
+// Handles mcq-single "Next" click — grade is determined here
 function advance() {
   const q = state.selectedQuestions[state.currentIndex];
 
-  if (q.type === 'mcq') {
+  if (q.type === 'mcq-single') {
     if (state.pendingAnswer === null) return;
     const correct = normalizeStr(state.pendingAnswer) === normalizeStr(q.correctAnswer);
     recordAnswer(q.id, state.pendingAnswer, correct, false);
@@ -482,9 +593,14 @@ function renderReviewCards(score, total) {
     if (!correct && !q.selfAssess) {
       const correctAns = document.createElement('div');
       correctAns.className = 'review-correct-answer';
-      const displayCorrect = q.type === 'mcq'
-        ? q.correctAnswer
-        : (q.correctAnswers && q.correctAnswers.length ? titleCase(q.correctAnswers[0]) : '');
+      let displayCorrect = '';
+      if (q.type === 'mcq-single') {
+        displayCorrect = q.correctAnswer;
+      } else if (q.type === 'mcq-multi') {
+        displayCorrect = q.correctAnswers.map(titleCase).join(', ');
+      } else {
+        displayCorrect = q.correctAnswers && q.correctAnswers.length ? titleCase(q.correctAnswers[0]) : '';
+      }
       if (displayCorrect) {
         correctAns.textContent = 'Correct: ' + displayCorrect;
         answers.appendChild(correctAns);
