@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="Practice for your U.S. Citizenship civics test with 20 randomized questions.">
+  <meta name="theme-color" content="#1B3A6B">
+  <title>U.S. Civics Practice Test</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+
+    <!-- ═══════════════════════════════════════════════ WELCOME SCREEN -->
+    <section id="screen-welcome" class="screen" role="main" aria-label="Welcome">
+
+      <div class="welcome-hero">
+        <span class="flag-emoji" aria-hidden="true">🇺🇸</span>
+        <h1>U.S. Civics Practice Test</h1>
+        <p class="subtitle">Prepare for your U.S. Citizenship interview with 20 randomly selected questions</p>
+      </div>
+
+      <div class="welcome-body">
+
+        <div class="info-card">
+          <h2>About This Test</h2>
+          <ul>
+            <li>20 questions drawn from a bank of 125 official civics topics</li>
+            <li>Questions are balanced across all topic categories</li>
+            <li>Mix of multiple-choice and open-ended questions</li>
+            <li>Your progress is automatically saved in your browser</li>
+            <li>Passing score: 12 out of 20 (60%)</li>
+          </ul>
+        </div>
+
+        <div id="resume-card" class="resume-card" role="status" aria-live="polite">
+          <p>You have an unfinished test. Would you like to continue where you left off?</p>
+          <div class="btn-group">
+            <button id="btn-resume" class="btn btn-secondary" style="flex:1">Resume Test</button>
+          </div>
+        </div>
+
+        <button id="btn-start" class="btn btn-primary btn-full">Start New Test</button>
+
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════ TEST SCREEN -->
+    <section id="screen-test" class="screen" role="main" aria-label="Test">
+
+      <!-- Sticky progress bar -->
+      <div class="progress-bar-wrapper" role="progressbar" aria-valuemin="0" aria-valuemax="20">
+        <div class="progress-track">
+          <div id="progress-fill" class="progress-fill"></div>
+        </div>
+        <div class="progress-label">
+          <span id="progress-counter">Question 1 of 20</span>
+          <span id="progress-topic" class="topic-tag"></span>
+        </div>
+      </div>
+
+      <!-- Question card -->
+      <div class="container">
+        <div class="question-card">
+          <p id="question-number" class="question-number">Question 1</p>
+          <p id="question-text" class="question-text"></p>
+          <div id="answer-area"></div>
+        </div>
+
+        <!-- Feedback panels (shown after submission) -->
+        <div id="answer-feedback" class="answer-feedback" role="alert" aria-live="polite"></div>
+        <div id="self-assess-panel" class="self-assess-panel" role="region" aria-label="Self assessment"></div>
+      </div>
+
+      <!-- Navigation buttons -->
+      <div class="nav-area">
+        <button id="btn-submit" class="btn btn-secondary btn-full" style="display:none">
+          Submit Answer
+        </button>
+        <button id="btn-next" class="btn btn-primary btn-full" style="display:none" disabled>
+          Next Question
+        </button>
+      </div>
+
+    </section>
+
+    <!-- ═══════════════════════════════════════════════ RESULTS SCREEN -->
+    <section id="screen-results" class="screen" role="main" aria-label="Results">
+
+      <div class="results-header">
+        <h2>Test Complete!</h2>
+        <div class="score-circle" role="img" aria-labelledby="score-number">
+          <span id="score-number" class="score-number">0</span>
+          <span id="score-total" class="score-total">/ 20</span>
+        </div>
+        <p id="score-percent" class="score-percent">0%</p>
+        <span id="pass-badge" class="pass-badge fail">✗ KEEP STUDYING</span>
+      </div>
+
+      <div class="results-summary">
+        <h3>Question Review</h3>
+        <div id="review-list" class="review-list" role="list"></div>
+      </div>
+
+      <div class="results-actions">
+        <button id="btn-restart" class="btn btn-primary btn-full">Take Another Test</button>
+      </div>
+
+    </section>
+
+  </div><!-- /#app -->
+
+  <script src="app.js"></script>
+</body>
+</html>

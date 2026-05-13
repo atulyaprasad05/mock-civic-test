@@ -1,0 +1,981 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "topic": "Principles of American Democracy",
+      "type": "mcq",
+      "question": "What is the supreme law of the land?",
+      "options": ["The Constitution", "The Declaration of Independence", "The Bill of Rights", "The Articles of Confederation"],
+      "correctAnswer": "The Constitution"
+    },
+    {
+      "id": 2,
+      "topic": "Principles of American Democracy",
+      "type": "open",
+      "question": "What does the Constitution do?",
+      "correctAnswers": ["sets up the government", "defines the government", "protects basic rights of americans", "establishes the government"]
+    },
+    {
+      "id": 3,
+      "topic": "Principles of American Democracy",
+      "type": "mcq",
+      "question": "The idea of self-government is in the first three words of the Constitution. What are these words?",
+      "options": ["We the People", "In God We Trust", "Congress shall make", "Life Liberty Happiness"],
+      "correctAnswer": "We the People"
+    },
+    {
+      "id": 4,
+      "topic": "Principles of American Democracy",
+      "type": "mcq",
+      "question": "What is an amendment?",
+      "options": ["A change to the Constitution", "A type of federal law", "A Supreme Court decision", "A presidential executive order"],
+      "correctAnswer": "A change to the Constitution"
+    },
+    {
+      "id": 5,
+      "topic": "Principles of American Democracy",
+      "type": "mcq",
+      "question": "What do we call the first ten amendments to the Constitution?",
+      "options": ["The Bill of Rights", "The Declaration of Rights", "The Freedoms Charter", "The Constitutional Amendments"],
+      "correctAnswer": "The Bill of Rights"
+    },
+    {
+      "id": 6,
+      "topic": "Principles of American Democracy",
+      "type": "open",
+      "question": "What is one right or freedom from the First Amendment?",
+      "correctAnswers": ["speech", "religion", "assembly", "press", "petition the government", "freedom of speech", "freedom of religion", "freedom of the press", "freedom of assembly", "right to petition"]
+    },
+    {
+      "id": 7,
+      "topic": "Principles of American Democracy",
+      "type": "mcq",
+      "question": "How many amendments does the Constitution have?",
+      "options": ["27", "10", "25", "30"],
+      "correctAnswer": "27"
+    },
+    {
+      "id": 8,
+      "topic": "Principles of American Democracy",
+      "type": "mcq",
+      "question": "What did the Declaration of Independence do?",
+      "options": ["Announced our independence from Great Britain", "Created the U.S. government", "Ended the Revolutionary War", "Established freedom of religion"],
+      "correctAnswer": "Announced our independence from Great Britain"
+    },
+    {
+      "id": 9,
+      "topic": "Principles of American Democracy",
+      "type": "open",
+      "question": "What are two rights in the Declaration of Independence?",
+      "correctAnswers": ["life and liberty", "liberty and pursuit of happiness", "life and pursuit of happiness", "life liberty and pursuit of happiness", "life, liberty, and pursuit of happiness"]
+    },
+    {
+      "id": 10,
+      "topic": "Principles of American Democracy",
+      "type": "mcq",
+      "question": "What is freedom of religion?",
+      "options": ["You can practice any religion, or not practice a religion", "Only certain religions are permitted", "The government promotes one official religion", "Religious leaders help govern the country"],
+      "correctAnswer": "You can practice any religion, or not practice a religion"
+    },
+    {
+      "id": 11,
+      "topic": "Principles of American Democracy",
+      "type": "mcq",
+      "question": "What is the economic system in the United States?",
+      "options": ["Capitalist economy", "Socialist economy", "Communist economy", "Feudal economy"],
+      "correctAnswer": "Capitalist economy"
+    },
+    {
+      "id": 12,
+      "topic": "Principles of American Democracy",
+      "type": "mcq",
+      "question": "What is the \"rule of law\"?",
+      "options": ["No one is above the law", "The President makes all laws", "Only courts can make rules", "Military law applies to all citizens"],
+      "correctAnswer": "No one is above the law"
+    },
+    {
+      "id": 13,
+      "topic": "System of Government",
+      "type": "open",
+      "question": "Name one branch or part of the U.S. government.",
+      "correctAnswers": ["congress", "legislative", "president", "executive", "the courts", "judicial", "legislative branch", "executive branch", "judicial branch"]
+    },
+    {
+      "id": 14,
+      "topic": "System of Government",
+      "type": "mcq",
+      "question": "What stops one branch of government from becoming too powerful?",
+      "options": ["Checks and balances", "The military", "Public elections alone", "The Supreme Court alone"],
+      "correctAnswer": "Checks and balances"
+    },
+    {
+      "id": 15,
+      "topic": "System of Government",
+      "type": "mcq",
+      "question": "Who is in charge of the executive branch?",
+      "options": ["The President", "The Speaker of the House", "The Chief Justice", "The Senate Majority Leader"],
+      "correctAnswer": "The President"
+    },
+    {
+      "id": 16,
+      "topic": "System of Government",
+      "type": "mcq",
+      "question": "Who makes federal laws?",
+      "options": ["Congress", "The President", "The Supreme Court", "The Cabinet"],
+      "correctAnswer": "Congress"
+    },
+    {
+      "id": 17,
+      "topic": "System of Government",
+      "type": "mcq",
+      "question": "What are the two parts of the U.S. Congress?",
+      "options": ["The Senate and House of Representatives", "The Senate and Supreme Court", "The House and the Cabinet", "Congress and the Presidency"],
+      "correctAnswer": "The Senate and House of Representatives"
+    },
+    {
+      "id": 18,
+      "topic": "System of Government",
+      "type": "mcq",
+      "question": "How many U.S. Senators are there?",
+      "options": ["100", "50", "435", "200"],
+      "correctAnswer": "100"
+    },
+    {
+      "id": 19,
+      "topic": "System of Government",
+      "type": "mcq",
+      "question": "We elect a U.S. Senator for how many years?",
+      "options": ["6 years", "2 years", "4 years", "8 years"],
+      "correctAnswer": "6 years"
+    },
+    {
+      "id": 20,
+      "topic": "System of Government",
+      "type": "open",
+      "question": "Who is one of your state's U.S. Senators now?",
+      "selfAssess": true,
+      "correctAnswers": [],
+      "note": "This answer varies by state. Enter the name of one of your current U.S. Senators."
+    },
+    {
+      "id": 21,
+      "topic": "System of Government",
+      "type": "mcq",
+      "question": "The House of Representatives has how many voting members?",
+      "options": ["435", "100", "50", "300"],
+      "correctAnswer": "435"
+    },
+    {
+      "id": 22,
+      "topic": "System of Government",
+      "type": "mcq",
+      "question": "We elect a U.S. Representative for how many years?",
+      "options": ["2 years", "4 years", "6 years", "8 years"],
+      "correctAnswer": "2 years"
+    },
+    {
+      "id": 23,
+      "topic": "System of Government",
+      "type": "open",
+      "question": "Name your U.S. Representative.",
+      "selfAssess": true,
+      "correctAnswers": [],
+      "note": "This answer varies by congressional district. Enter the name of your current U.S. Representative."
+    },
+    {
+      "id": 24,
+      "topic": "System of Government",
+      "type": "mcq",
+      "question": "Who does a U.S. Senator represent?",
+      "options": ["All people of the state", "Only voters who elected them", "Their political party members", "Federal government agencies"],
+      "correctAnswer": "All people of the state"
+    },
+    {
+      "id": 25,
+      "topic": "System of Government",
+      "type": "mcq",
+      "question": "Why do some states have more Representatives than other states?",
+      "options": ["Because of the state's population", "Because of the state's geographic size", "Because of the state's wealth", "Because of how long a state has existed"],
+      "correctAnswer": "Because of the state's population"
+    },
+    {
+      "id": 26,
+      "topic": "System of Government",
+      "type": "mcq",
+      "question": "We elect a President for how many years?",
+      "options": ["4 years", "2 years", "6 years", "8 years"],
+      "correctAnswer": "4 years"
+    },
+    {
+      "id": 27,
+      "topic": "System of Government",
+      "type": "mcq",
+      "question": "In what month do we vote for President?",
+      "options": ["November", "October", "September", "December"],
+      "correctAnswer": "November"
+    },
+    {
+      "id": 28,
+      "topic": "System of Government",
+      "type": "open",
+      "question": "What is the name of the President of the United States now?",
+      "correctAnswers": ["donald trump", "donald j trump", "trump"]
+    },
+    {
+      "id": 29,
+      "topic": "System of Government",
+      "type": "open",
+      "question": "What is the name of the Vice President of the United States now?",
+      "correctAnswers": ["jd vance", "j.d. vance", "james david vance", "vance", "james vance"]
+    },
+    {
+      "id": 30,
+      "topic": "System of Government",
+      "type": "mcq",
+      "question": "If the President can no longer serve, who becomes President?",
+      "options": ["The Vice President", "The Speaker of the House", "The Chief Justice", "The Secretary of State"],
+      "correctAnswer": "The Vice President"
+    },
+    {
+      "id": 31,
+      "topic": "System of Government",
+      "type": "mcq",
+      "question": "If both the President and the Vice President can no longer serve, who becomes President?",
+      "options": ["The Speaker of the House", "The Chief Justice", "The Senate Majority Leader", "The Secretary of Defense"],
+      "correctAnswer": "The Speaker of the House"
+    },
+    {
+      "id": 32,
+      "topic": "System of Government",
+      "type": "mcq",
+      "question": "Who is the Commander in Chief of the military?",
+      "options": ["The President", "The Secretary of Defense", "The Chairman of the Joint Chiefs", "The Vice President"],
+      "correctAnswer": "The President"
+    },
+    {
+      "id": 33,
+      "topic": "System of Government",
+      "type": "mcq",
+      "question": "Who signs bills to become laws?",
+      "options": ["The President", "The Speaker of the House", "The Senate Majority Leader", "The Chief Justice"],
+      "correctAnswer": "The President"
+    },
+    {
+      "id": 34,
+      "topic": "System of Government",
+      "type": "mcq",
+      "question": "Who vetoes bills?",
+      "options": ["The President", "The Supreme Court", "The full Senate", "The Vice President"],
+      "correctAnswer": "The President"
+    },
+    {
+      "id": 35,
+      "topic": "System of Government",
+      "type": "mcq",
+      "question": "What does the President's Cabinet do?",
+      "options": ["Advises the President", "Makes federal laws", "Interprets the Constitution", "Commands the military"],
+      "correctAnswer": "Advises the President"
+    },
+    {
+      "id": 36,
+      "topic": "System of Government",
+      "type": "open",
+      "question": "What are two Cabinet-level positions?",
+      "correctAnswers": ["secretary of state and secretary of defense", "vice president and secretary of state", "attorney general and secretary of defense", "secretary of treasury and secretary of state", "secretary of agriculture and secretary of commerce", "secretary of defense and attorney general"]
+    },
+    {
+      "id": 37,
+      "topic": "System of Government",
+      "type": "mcq",
+      "question": "What does the judicial branch do?",
+      "options": ["Reviews and interprets laws", "Makes federal laws", "Enforces federal laws", "Commands the armed forces"],
+      "correctAnswer": "Reviews and interprets laws"
+    },
+    {
+      "id": 38,
+      "topic": "System of Government",
+      "type": "mcq",
+      "question": "What is the highest court in the United States?",
+      "options": ["The Supreme Court", "The Federal Court of Appeals", "The District Court", "The Constitutional Court"],
+      "correctAnswer": "The Supreme Court"
+    },
+    {
+      "id": 39,
+      "topic": "System of Government",
+      "type": "mcq",
+      "question": "How many justices are on the Supreme Court?",
+      "options": ["9", "7", "11", "5"],
+      "correctAnswer": "9"
+    },
+    {
+      "id": 40,
+      "topic": "System of Government",
+      "type": "open",
+      "question": "Who is the Chief Justice of the United States now?",
+      "correctAnswers": ["john roberts", "john g roberts", "roberts", "john g. roberts jr", "john roberts jr"]
+    },
+    {
+      "id": 41,
+      "topic": "System of Government",
+      "type": "open",
+      "question": "Under our Constitution, some powers belong to the federal government. What is one power of the federal government?",
+      "correctAnswers": ["to print money", "to declare war", "to create an army", "to make treaties", "print money", "declare war", "create an army", "make treaties", "printing money", "declaring war"]
+    },
+    {
+      "id": 42,
+      "topic": "System of Government",
+      "type": "open",
+      "question": "Under our Constitution, some powers belong to the states. What is one power of the states?",
+      "correctAnswers": ["provide schooling and education", "provide protection (police)", "give a driver's license", "approve zoning and land use", "provide safety (fire departments)", "education", "police", "driver's license", "zoning", "fire departments"]
+    },
+    {
+      "id": 43,
+      "topic": "System of Government",
+      "type": "open",
+      "question": "Who is the Governor of your state now?",
+      "selfAssess": true,
+      "correctAnswers": [],
+      "note": "This answer varies by state. Enter the name of your current state Governor."
+    },
+    {
+      "id": 44,
+      "topic": "System of Government",
+      "type": "open",
+      "question": "What is the capital of your state?",
+      "selfAssess": true,
+      "correctAnswers": [],
+      "note": "This answer varies by state. Enter your state's capital city."
+    },
+    {
+      "id": 45,
+      "topic": "System of Government",
+      "type": "mcq",
+      "question": "What are the two major political parties in the United States?",
+      "options": ["Democratic and Republican", "Republican and Libertarian", "Democratic and Green", "Conservative and Liberal"],
+      "correctAnswer": "Democratic and Republican"
+    },
+    {
+      "id": 46,
+      "topic": "System of Government",
+      "type": "open",
+      "question": "What is the political party of the President now?",
+      "correctAnswers": ["republican", "republican party", "the republican party"]
+    },
+    {
+      "id": 47,
+      "topic": "System of Government",
+      "type": "open",
+      "question": "What is the name of the Speaker of the House of Representatives now?",
+      "correctAnswers": ["mike johnson", "johnson", "michael johnson"]
+    },
+    {
+      "id": 48,
+      "topic": "Rights and Responsibilities",
+      "type": "open",
+      "question": "There are four amendments to the Constitution about who can vote. Describe one of them.",
+      "correctAnswers": ["citizens 18 and older can vote", "you don't have to pay a poll tax to vote", "any citizen can vote", "a male citizen of any race can vote", "women and men can vote", "18 and older can vote", "women can vote", "no poll tax", "citizens of any race can vote"]
+    },
+    {
+      "id": 49,
+      "topic": "Rights and Responsibilities",
+      "type": "mcq",
+      "question": "What is one responsibility that is only for United States citizens?",
+      "options": ["Serve on a jury", "Pay federal income taxes", "Obey all laws", "Respect the rights of others"],
+      "correctAnswer": "Serve on a jury"
+    },
+    {
+      "id": 50,
+      "topic": "Rights and Responsibilities",
+      "type": "mcq",
+      "question": "Name one right only for United States citizens.",
+      "options": ["Vote in a federal election", "Freedom of speech", "Freedom of religion", "Right to a fair trial"],
+      "correctAnswer": "Vote in a federal election"
+    },
+    {
+      "id": 51,
+      "topic": "Rights and Responsibilities",
+      "type": "open",
+      "question": "What are two rights of everyone living in the United States?",
+      "correctAnswers": ["freedom of speech and freedom of religion", "freedom of expression and freedom of assembly", "freedom of speech and right to bear arms", "freedom of religion and freedom of assembly", "freedom of religion and right to petition", "freedom of speech and freedom of the press"]
+    },
+    {
+      "id": 52,
+      "topic": "Rights and Responsibilities",
+      "type": "mcq",
+      "question": "What do we show loyalty to when we say the Pledge of Allegiance?",
+      "options": ["The United States and its flag", "The President", "The Constitution only", "The Congress"],
+      "correctAnswer": "The United States and its flag"
+    },
+    {
+      "id": 53,
+      "topic": "Rights and Responsibilities",
+      "type": "open",
+      "question": "What is one promise you make when you become a United States citizen?",
+      "correctAnswers": ["give up loyalty to other countries", "defend the constitution", "obey the laws of the united states", "serve in the us military if needed", "be loyal to the united states", "serve the nation if needed", "support and defend the constitution"]
+    },
+    {
+      "id": 54,
+      "topic": "Rights and Responsibilities",
+      "type": "mcq",
+      "question": "How old do citizens have to be to vote for President?",
+      "options": ["18 and older", "21 and older", "16 and older", "25 and older"],
+      "correctAnswer": "18 and older"
+    },
+    {
+      "id": 55,
+      "topic": "Rights and Responsibilities",
+      "type": "open",
+      "question": "What are two ways that Americans can participate in their democracy?",
+      "correctAnswers": ["vote and join a political party", "vote and run for office", "vote and write to a newspaper", "join a civic group and vote", "call your senators and vote", "vote and help with a campaign", "run for office and vote"]
+    },
+    {
+      "id": 56,
+      "topic": "Rights and Responsibilities",
+      "type": "mcq",
+      "question": "When is the last day you can send in federal income tax forms?",
+      "options": ["April 15", "March 31", "May 1", "April 30"],
+      "correctAnswer": "April 15"
+    },
+    {
+      "id": 57,
+      "topic": "Rights and Responsibilities",
+      "type": "mcq",
+      "question": "When must all men register for the Selective Service?",
+      "options": ["At age 18", "At age 21", "At age 16", "At age 25"],
+      "correctAnswer": "At age 18"
+    },
+    {
+      "id": 58,
+      "topic": "Colonial Period and Independence",
+      "type": "open",
+      "question": "What is one reason colonists came to America?",
+      "correctAnswers": ["freedom", "political liberty", "religious freedom", "economic opportunity", "practice their religion", "escape persecution", "liberty", "opportunity"]
+    },
+    {
+      "id": 59,
+      "topic": "Colonial Period and Independence",
+      "type": "mcq",
+      "question": "Who lived in America before the Europeans arrived?",
+      "options": ["American Indians / Native Americans", "English settlers", "Spanish explorers", "African traders"],
+      "correctAnswer": "American Indians / Native Americans"
+    },
+    {
+      "id": 60,
+      "topic": "Colonial Period and Independence",
+      "type": "mcq",
+      "question": "What group of people was taken to America and sold as slaves?",
+      "options": ["Africans", "Europeans", "Native Americans", "Asians"],
+      "correctAnswer": "Africans"
+    },
+    {
+      "id": 61,
+      "topic": "Colonial Period and Independence",
+      "type": "open",
+      "question": "Why did the colonists fight the British?",
+      "correctAnswers": ["high taxes", "taxation without representation", "the british army stayed in their houses", "they didn't have self-government", "no self-government", "unfair taxes", "no representation"]
+    },
+    {
+      "id": 62,
+      "topic": "Colonial Period and Independence",
+      "type": "mcq",
+      "question": "Who wrote the Declaration of Independence?",
+      "options": ["Thomas Jefferson", "Benjamin Franklin", "George Washington", "John Adams"],
+      "correctAnswer": "Thomas Jefferson"
+    },
+    {
+      "id": 63,
+      "topic": "Colonial Period and Independence",
+      "type": "mcq",
+      "question": "When was the Declaration of Independence adopted?",
+      "options": ["July 4, 1776", "July 4, 1789", "July 4, 1783", "July 4, 1775"],
+      "correctAnswer": "July 4, 1776"
+    },
+    {
+      "id": 64,
+      "topic": "Colonial Period and Independence",
+      "type": "open",
+      "question": "There were 13 original states. Name three.",
+      "selfAssess": true,
+      "correctAnswers": [],
+      "note": "Name any three of the 13 original states: New Hampshire, Massachusetts, Rhode Island, Connecticut, New York, New Jersey, Pennsylvania, Delaware, Maryland, Virginia, North Carolina, South Carolina, Georgia."
+    },
+    {
+      "id": 65,
+      "topic": "Colonial Period and Independence",
+      "type": "mcq",
+      "question": "What happened at the Constitutional Convention?",
+      "options": ["The Constitution was written", "The Declaration of Independence was signed", "The Bill of Rights was added", "The first President was elected"],
+      "correctAnswer": "The Constitution was written"
+    },
+    {
+      "id": 66,
+      "topic": "Colonial Period and Independence",
+      "type": "mcq",
+      "question": "When was the Constitution written?",
+      "options": ["1787", "1776", "1789", "1783"],
+      "correctAnswer": "1787"
+    },
+    {
+      "id": 67,
+      "topic": "Colonial Period and Independence",
+      "type": "open",
+      "question": "The Federalist Papers supported passage of the U.S. Constitution. Name one of the writers.",
+      "correctAnswers": ["madison", "hamilton", "jay", "james madison", "alexander hamilton", "john jay", "publius"]
+    },
+    {
+      "id": 68,
+      "topic": "Colonial Period and Independence",
+      "type": "open",
+      "question": "What is one thing Benjamin Franklin is famous for?",
+      "correctAnswers": ["u.s. diplomat", "oldest member of the constitutional convention", "first postmaster general", "writer of poor richard's almanac", "started the first free libraries", "diplomat", "postmaster general", "poor richard's almanac", "free libraries", "discovered electricity"]
+    },
+    {
+      "id": 69,
+      "topic": "Colonial Period and Independence",
+      "type": "mcq",
+      "question": "Who is the \"Father of Our Country\"?",
+      "options": ["George Washington", "Thomas Jefferson", "Benjamin Franklin", "John Adams"],
+      "correctAnswer": "George Washington"
+    },
+    {
+      "id": 70,
+      "topic": "Colonial Period and Independence",
+      "type": "mcq",
+      "question": "Who was the first President?",
+      "options": ["George Washington", "John Adams", "Thomas Jefferson", "Benjamin Franklin"],
+      "correctAnswer": "George Washington"
+    },
+    {
+      "id": 71,
+      "topic": "1800s",
+      "type": "mcq",
+      "question": "What territory did the United States buy from France in 1803?",
+      "options": ["The Louisiana Territory", "The Florida Territory", "The Alaska Territory", "The Oregon Territory"],
+      "correctAnswer": "The Louisiana Territory"
+    },
+    {
+      "id": 72,
+      "topic": "1800s",
+      "type": "open",
+      "question": "Name one war fought by the United States in the 1800s.",
+      "correctAnswers": ["war of 1812", "mexican-american war", "civil war", "spanish-american war", "the civil war", "the war of 1812"]
+    },
+    {
+      "id": 73,
+      "topic": "1800s",
+      "type": "mcq",
+      "question": "Name the U.S. war between the North and the South.",
+      "options": ["The Civil War", "The Revolutionary War", "The War of 1812", "The French and Indian War"],
+      "correctAnswer": "The Civil War"
+    },
+    {
+      "id": 74,
+      "topic": "1800s",
+      "type": "open",
+      "question": "Name one problem that led to the Civil War.",
+      "correctAnswers": ["slavery", "economic reasons", "states' rights", "states rights", "economic differences", "expansion of slavery"]
+    },
+    {
+      "id": 75,
+      "topic": "1800s",
+      "type": "open",
+      "question": "What was one important thing that Abraham Lincoln did?",
+      "correctAnswers": ["freed the slaves", "emancipation proclamation", "saved the union", "led the united states during the civil war", "preserved the union", "issued the emancipation proclamation"]
+    },
+    {
+      "id": 76,
+      "topic": "1800s",
+      "type": "mcq",
+      "question": "What did the Emancipation Proclamation do?",
+      "options": ["Freed the slaves", "Ended the Civil War", "Gave women the right to vote", "Created the Union Army"],
+      "correctAnswer": "Freed the slaves"
+    },
+    {
+      "id": 77,
+      "topic": "1800s",
+      "type": "mcq",
+      "question": "What did Susan B. Anthony do?",
+      "options": ["Fought for women's rights", "Led the Underground Railroad", "Abolished slavery", "Wrote the Declaration of Independence"],
+      "correctAnswer": "Fought for women's rights"
+    },
+    {
+      "id": 78,
+      "topic": "Recent American History",
+      "type": "open",
+      "question": "Name one war fought by the United States in the 1900s.",
+      "correctAnswers": ["world war i", "world war ii", "korean war", "vietnam war", "gulf war", "persian gulf war", "world war 1", "world war 2", "wwi", "wwii", "the korean war", "the vietnam war"]
+    },
+    {
+      "id": 79,
+      "topic": "Recent American History",
+      "type": "mcq",
+      "question": "Who was President during World War I?",
+      "options": ["Woodrow Wilson", "Theodore Roosevelt", "Franklin Roosevelt", "William Taft"],
+      "correctAnswer": "Woodrow Wilson"
+    },
+    {
+      "id": 80,
+      "topic": "Recent American History",
+      "type": "mcq",
+      "question": "Who was President during the Great Depression and World War II?",
+      "options": ["Franklin Roosevelt", "Woodrow Wilson", "Herbert Hoover", "Harry Truman"],
+      "correctAnswer": "Franklin Roosevelt"
+    },
+    {
+      "id": 81,
+      "topic": "Recent American History",
+      "type": "mcq",
+      "question": "Who did the United States fight in World War II?",
+      "options": ["Japan, Germany, and Italy", "Germany and France", "Soviet Union and Japan", "Great Britain and Germany"],
+      "correctAnswer": "Japan, Germany, and Italy"
+    },
+    {
+      "id": 82,
+      "topic": "Recent American History",
+      "type": "mcq",
+      "question": "Before he was President, Eisenhower was a general. What war was he in?",
+      "options": ["World War II", "World War I", "The Korean War", "The Vietnam War"],
+      "correctAnswer": "World War II"
+    },
+    {
+      "id": 83,
+      "topic": "Recent American History",
+      "type": "mcq",
+      "question": "During the Cold War, what was the main concern of the United States?",
+      "options": ["Communism", "Terrorism", "Nuclear weapons alone", "Economic recession"],
+      "correctAnswer": "Communism"
+    },
+    {
+      "id": 84,
+      "topic": "Recent American History",
+      "type": "mcq",
+      "question": "What movement tried to end racial discrimination?",
+      "options": ["The Civil Rights Movement", "The Women's Suffrage Movement", "The Labor Movement", "The Temperance Movement"],
+      "correctAnswer": "The Civil Rights Movement"
+    },
+    {
+      "id": 85,
+      "topic": "Recent American History",
+      "type": "mcq",
+      "question": "What did Martin Luther King, Jr. do?",
+      "options": ["Fought for civil rights and equality for all Americans", "Led the Union Army in the Civil War", "Wrote the Emancipation Proclamation", "Founded the Supreme Court"],
+      "correctAnswer": "Fought for civil rights and equality for all Americans"
+    },
+    {
+      "id": 86,
+      "topic": "Recent American History",
+      "type": "mcq",
+      "question": "What major event happened on September 11, 2001, in the United States?",
+      "options": ["Terrorists attacked the United States", "The U.S. entered the Gulf War", "Hurricane Katrina struck the Gulf Coast", "The stock market crashed"],
+      "correctAnswer": "Terrorists attacked the United States"
+    },
+    {
+      "id": 87,
+      "topic": "Recent American History",
+      "type": "open",
+      "question": "Name one American Indian tribe in the United States.",
+      "correctAnswers": ["cherokee", "navajo", "sioux", "chippewa", "choctaw", "pueblo", "apache", "iroquois", "creek", "blackfeet", "seminole", "cheyenne", "arawak", "shawnee", "mohegan", "huron", "oneida", "lakota", "crow", "teton", "hopi", "inuit"]
+    },
+    {
+      "id": 88,
+      "topic": "Geography",
+      "type": "open",
+      "question": "Name one of the two longest rivers in the United States.",
+      "correctAnswers": ["missouri river", "mississippi river", "missouri", "mississippi"]
+    },
+    {
+      "id": 89,
+      "topic": "Geography",
+      "type": "mcq",
+      "question": "What ocean is on the West Coast of the United States?",
+      "options": ["Pacific Ocean", "Atlantic Ocean", "Indian Ocean", "Arctic Ocean"],
+      "correctAnswer": "Pacific Ocean"
+    },
+    {
+      "id": 90,
+      "topic": "Geography",
+      "type": "mcq",
+      "question": "What ocean is on the East Coast of the United States?",
+      "options": ["Atlantic Ocean", "Pacific Ocean", "Indian Ocean", "Caribbean Sea"],
+      "correctAnswer": "Atlantic Ocean"
+    },
+    {
+      "id": 91,
+      "topic": "Geography",
+      "type": "open",
+      "question": "Name one U.S. territory.",
+      "correctAnswers": ["puerto rico", "u.s. virgin islands", "us virgin islands", "american samoa", "northern mariana islands", "guam"]
+    },
+    {
+      "id": 92,
+      "topic": "Geography",
+      "type": "open",
+      "question": "Name one state that borders Canada.",
+      "correctAnswers": ["maine", "new hampshire", "vermont", "new york", "pennsylvania", "ohio", "michigan", "minnesota", "north dakota", "montana", "idaho", "washington", "alaska"]
+    },
+    {
+      "id": 93,
+      "topic": "Geography",
+      "type": "open",
+      "question": "Name one state that borders Mexico.",
+      "correctAnswers": ["california", "arizona", "new mexico", "texas"]
+    },
+    {
+      "id": 94,
+      "topic": "Geography",
+      "type": "mcq",
+      "question": "What is the capital of the United States?",
+      "options": ["Washington, D.C.", "New York City", "Philadelphia", "Boston"],
+      "correctAnswer": "Washington, D.C."
+    },
+    {
+      "id": 95,
+      "topic": "Geography",
+      "type": "mcq",
+      "question": "Where is the Statue of Liberty?",
+      "options": ["New York (Harbor)", "Boston Harbor", "Washington, D.C.", "Philadelphia"],
+      "correctAnswer": "New York (Harbor)"
+    },
+    {
+      "id": 96,
+      "topic": "Symbols and Holidays",
+      "type": "mcq",
+      "question": "Why does the flag have 13 stripes?",
+      "options": ["Because there were 13 original colonies", "Because there are 13 states today", "Because of the 13 constitutional amendments", "Because of 13 founding fathers"],
+      "correctAnswer": "Because there were 13 original colonies"
+    },
+    {
+      "id": 97,
+      "topic": "Symbols and Holidays",
+      "type": "mcq",
+      "question": "Why does the flag have 50 stars?",
+      "options": ["Because there are 50 states", "Because there were 50 original territories", "Because of the 50 amendments", "Because of 50 founding documents"],
+      "correctAnswer": "Because there are 50 states"
+    },
+    {
+      "id": 98,
+      "topic": "Symbols and Holidays",
+      "type": "mcq",
+      "question": "What is the name of the national anthem?",
+      "options": ["The Star-Spangled Banner", "America the Beautiful", "God Bless America", "My Country 'Tis of Thee"],
+      "correctAnswer": "The Star-Spangled Banner"
+    },
+    {
+      "id": 99,
+      "topic": "Symbols and Holidays",
+      "type": "mcq",
+      "question": "When do we celebrate Independence Day?",
+      "options": ["July 4", "June 4", "August 4", "July 14"],
+      "correctAnswer": "July 4"
+    },
+    {
+      "id": 100,
+      "topic": "Symbols and Holidays",
+      "type": "open",
+      "question": "Name two national U.S. holidays.",
+      "selfAssess": true,
+      "correctAnswers": [],
+      "note": "Name any two from this list: New Year's Day, Martin Luther King Jr. Day, Presidents' Day, Memorial Day, Independence Day (July 4th), Labor Day, Columbus Day, Veterans Day, Thanksgiving, Christmas."
+    },
+    {
+      "id": 101,
+      "topic": "Additional Civics",
+      "type": "mcq",
+      "question": "Which amendment to the Constitution abolished slavery?",
+      "options": ["13th Amendment", "14th Amendment", "15th Amendment", "19th Amendment"],
+      "correctAnswer": "13th Amendment"
+    },
+    {
+      "id": 102,
+      "topic": "Additional Civics",
+      "type": "mcq",
+      "question": "Which amendment gave women the right to vote?",
+      "options": ["19th Amendment", "15th Amendment", "13th Amendment", "21st Amendment"],
+      "correctAnswer": "19th Amendment"
+    },
+    {
+      "id": 103,
+      "topic": "Additional Civics",
+      "type": "mcq",
+      "question": "Which amendment guarantees equal protection under the law for all citizens?",
+      "options": ["14th Amendment", "13th Amendment", "15th Amendment", "16th Amendment"],
+      "correctAnswer": "14th Amendment"
+    },
+    {
+      "id": 104,
+      "topic": "Additional Civics",
+      "type": "mcq",
+      "question": "How many terms can a President serve?",
+      "options": ["Two terms", "One term", "Three terms", "Unlimited terms"],
+      "correctAnswer": "Two terms"
+    },
+    {
+      "id": 105,
+      "topic": "Additional Civics",
+      "type": "mcq",
+      "question": "What is the White House?",
+      "options": ["The official residence and office of the President", "The headquarters of Congress", "The Supreme Court building", "The U.S. Treasury building"],
+      "correctAnswer": "The official residence and office of the President"
+    },
+    {
+      "id": 106,
+      "topic": "Additional Civics",
+      "type": "mcq",
+      "question": "What building does Congress meet in?",
+      "options": ["The Capitol Building", "The White House", "The Pentagon", "The Supreme Court Building"],
+      "correctAnswer": "The Capitol Building"
+    },
+    {
+      "id": 107,
+      "topic": "Additional Civics",
+      "type": "mcq",
+      "question": "In what year did World War II end?",
+      "options": ["1945", "1944", "1946", "1943"],
+      "correctAnswer": "1945"
+    },
+    {
+      "id": 108,
+      "topic": "Additional Civics",
+      "type": "mcq",
+      "question": "What was the main cause that led to the American Revolutionary War?",
+      "options": ["Taxation without representation", "Religious persecution by Britain", "British invasion of France", "Economic depression in the colonies"],
+      "correctAnswer": "Taxation without representation"
+    },
+    {
+      "id": 109,
+      "topic": "Additional Civics",
+      "type": "mcq",
+      "question": "Who was the President of the United States during the Civil War?",
+      "options": ["Abraham Lincoln", "Ulysses S. Grant", "Andrew Johnson", "James Buchanan"],
+      "correctAnswer": "Abraham Lincoln"
+    },
+    {
+      "id": 110,
+      "topic": "Additional Civics",
+      "type": "mcq",
+      "question": "What is the official national motto of the United States?",
+      "options": ["In God We Trust", "E Pluribus Unum", "Land of the Free", "One Nation Indivisible"],
+      "correctAnswer": "In God We Trust"
+    },
+    {
+      "id": 111,
+      "topic": "Additional Civics",
+      "type": "mcq",
+      "question": "How long is the term of a Supreme Court Justice?",
+      "options": ["Life tenure", "10 years", "6 years", "4 years"],
+      "correctAnswer": "Life tenure"
+    },
+    {
+      "id": 112,
+      "topic": "Additional Civics",
+      "type": "mcq",
+      "question": "How many states are in the United States?",
+      "options": ["50", "48", "52", "46"],
+      "correctAnswer": "50"
+    },
+    {
+      "id": 113,
+      "topic": "Additional Civics",
+      "type": "mcq",
+      "question": "What is the largest U.S. state by area?",
+      "options": ["Alaska", "Texas", "California", "Montana"],
+      "correctAnswer": "Alaska"
+    },
+    {
+      "id": 114,
+      "topic": "Additional Civics",
+      "type": "mcq",
+      "question": "What does \"We the People\" in the preamble of the Constitution mean?",
+      "options": ["The government's power comes from the people", "Only property-owning citizens hold power", "The military governs on behalf of the people", "The President speaks on behalf of all people"],
+      "correctAnswer": "The government's power comes from the people"
+    },
+    {
+      "id": 115,
+      "topic": "Additional Civics",
+      "type": "mcq",
+      "question": "What does the Second Amendment protect?",
+      "options": ["The right to bear arms", "Freedom of speech", "Freedom of religion", "The right to a fair trial"],
+      "correctAnswer": "The right to bear arms"
+    },
+    {
+      "id": 116,
+      "topic": "Additional Civics",
+      "type": "mcq",
+      "question": "What does the Fourth Amendment protect against?",
+      "options": ["Unreasonable searches and seizures", "Self-incrimination", "Cruel and unusual punishment", "Excessive bail"],
+      "correctAnswer": "Unreasonable searches and seizures"
+    },
+    {
+      "id": 117,
+      "topic": "Additional Civics",
+      "type": "mcq",
+      "question": "What does the Fifth Amendment protect against?",
+      "options": ["Being forced to testify against yourself", "Unreasonable searches and seizures", "Cruel and unusual punishment", "Excessive fines"],
+      "correctAnswer": "Being forced to testify against yourself"
+    },
+    {
+      "id": 118,
+      "topic": "Additional Civics",
+      "type": "mcq",
+      "question": "What was the Mayflower Compact?",
+      "options": ["The first agreement for self-government in America", "The document declaring independence from Britain", "The first U.S. Constitution", "A treaty with Native Americans"],
+      "correctAnswer": "The first agreement for self-government in America"
+    },
+    {
+      "id": 119,
+      "topic": "Additional Civics",
+      "type": "mcq",
+      "question": "What were the Articles of Confederation?",
+      "options": ["The first constitution of the United States", "The document declaring independence", "The first 10 amendments", "A peace treaty with Britain"],
+      "correctAnswer": "The first constitution of the United States"
+    },
+    {
+      "id": 120,
+      "topic": "Additional Civics",
+      "type": "mcq",
+      "question": "What is federalism?",
+      "options": ["A system where power is shared between federal and state governments", "A system where only the federal government has power", "A system where each state is fully independent", "A system where the military governs the country"],
+      "correctAnswer": "A system where power is shared between federal and state governments"
+    },
+    {
+      "id": 121,
+      "topic": "Additional Civics",
+      "type": "mcq",
+      "question": "What is the minimum age requirement to run for U.S. Senate?",
+      "options": ["30 years old", "25 years old", "35 years old", "21 years old"],
+      "correctAnswer": "30 years old"
+    },
+    {
+      "id": 122,
+      "topic": "Additional Civics",
+      "type": "mcq",
+      "question": "What is the minimum age requirement to run for President of the United States?",
+      "options": ["35 years old", "30 years old", "25 years old", "40 years old"],
+      "correctAnswer": "35 years old"
+    },
+    {
+      "id": 123,
+      "topic": "Additional Civics",
+      "type": "mcq",
+      "question": "What was the significance of the Boston Tea Party (1773)?",
+      "options": ["It was a protest against British taxation without representation", "It was a celebration of American independence", "It was the opening battle of the Civil War", "It was a trade agreement between colonies and Britain"],
+      "correctAnswer": "It was a protest against British taxation without representation"
+    },
+    {
+      "id": 124,
+      "topic": "Additional Civics",
+      "type": "mcq",
+      "question": "What was the Underground Railroad?",
+      "options": ["A network that helped enslaved people escape to freedom", "The first subway system in America", "A trade route between Northern and Southern states", "A system of tunnels used in the Civil War"],
+      "correctAnswer": "A network that helped enslaved people escape to freedom"
+    },
+    {
+      "id": 125,
+      "topic": "Additional Civics",
+      "type": "mcq",
+      "question": "What is the primary purpose of the U.S. Census?",
+      "options": ["To count the population and determine representation in Congress", "To collect federal income taxes", "To register eligible voters", "To measure the national economy"],
+      "correctAnswer": "To count the population and determine representation in Congress"
+    }
+  ]
+}
