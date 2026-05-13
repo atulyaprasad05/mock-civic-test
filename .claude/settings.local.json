@@ -1,7 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(python3 -c \"import json; d=json.load\\(open\\('/c/my-projects/mock-civic-test/static/data/questions.json'\\)\\); qs=d['questions']; print\\('Total questions:', len\\(qs\\)\\); topics={q['topic'] for q in qs}; print\\('Topics:', len\\(topics\\)\\); mcq=sum\\(1 for q in qs if q['type']=='mcq'\\); print\\('MCQ:', mcq, '| Open:', len\\(qs\\)-mcq\\)\")"
-    ]
-  }
-}
